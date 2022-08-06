@@ -1,0 +1,15 @@
+<header>
+    <!-- Использованы классы Bootstrap для создания типовой навигации с логотипом-->
+    <!-- В дальнейшем здесь будет создано полноценное меню-->
+    <nav class="navbar navbar-light" style = "background-color: lightskyblue">
+        <div class="container">
+            <a class "navbar navbar-light" href="index.html">
+                {% load static%}
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+                <img src="{% static 'img/logo.png' %}" width="30" height="30" class="d-inline-block align-top" alt="">
+                <!-- тег span используется для добавления нужных стилей отдельным участкам-->
+                <span style="color:red">Ya</span>tube
+            </a>
+        </div>
+    </nav>    
+</header>
